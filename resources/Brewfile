@@ -1,0 +1,33 @@
+# Casks
+tap 'caskroom/cask'
+tap 'caskroom/fonts'
+tap 'caskroom/versions'
+
+# Tools
+brew 'mas'
+cask 'the-unarchiver'
+brew 'unrar'
+brew 'wget'
+
+# App Store
+mas 'Pages', id: 409201541
+mas 'Microsoft Remote Desktop', id: 715768417
+mas 'Microsoft OneNote', id: 784801555
+
+# Apps
+cask 'google-chrome'
+
+# Dev Tools
+cask 'chrome-devtools'
+brew 'git'
+cask 'postman'
+cask 'visual-studio-code'
+
+# Java
+cask 'java'
+brew 'maven'
+brew 'gradle'
+
+# Docker
+cask 'docker'
+cask 'kitematic'
