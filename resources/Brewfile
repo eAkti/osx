@@ -22,6 +22,7 @@ cask 'chrome-devtools'
 brew 'git'
 cask 'postman'
 cask 'visual-studio-code'
+cask 'pgadmin3'
 
 # Python
 brew 'python'
