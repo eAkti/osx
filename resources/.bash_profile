@@ -20,3 +20,7 @@ maketar() { tar cvzf "${1%%/}.tar.gz"  "${1%%/}/"; }
 export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
 export MAVEN_HOME=/usr/local/opt/maven
 export GRADLE_HOME=/usr/local/opt/gradle
+
+# Python
+export WORKON_HOME=$HOME/.virtualenvs
+source /usr/local/bin/virtualenvwrapper.sh
