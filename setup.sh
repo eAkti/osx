@@ -28,4 +28,6 @@ cp ./resources/.bash_profile ~/.bash_profile
 # Cleanup
 brew cleanup && brew doctor
 
+pip install virtualenv
+
 msg "Done."
