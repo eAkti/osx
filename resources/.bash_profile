@@ -24,3 +24,7 @@ export GRADLE_HOME=/usr/local/opt/gradle
 # Python
 export WORKON_HOME=$HOME/.virtualenvs
 source /usr/local/bin/virtualenvwrapper.sh
+
+# Node
+export PATH="/usr/local/opt/node@6/bin:$PATH"
+export PATH="$PATH:`yarn global bin`"
