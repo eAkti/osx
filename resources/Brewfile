@@ -35,3 +35,8 @@ brew 'gradle'
 # Docker
 cask 'docker'
 cask 'kitematic'
+
+# Node
+brew 'node@6'
+brew 'npm'
+brew 'yarn'
