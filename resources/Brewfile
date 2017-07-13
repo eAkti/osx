@@ -24,6 +24,7 @@ cask 'postman'
 cask 'visual-studio-code'
 cask 'pgadmin3'
 cask 'rdm'
+cask 'ngrok'
 
 # Python
 brew 'python'
