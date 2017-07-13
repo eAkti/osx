@@ -23,6 +23,7 @@ brew 'git'
 cask 'postman'
 cask 'visual-studio-code'
 cask 'pgadmin3'
+cask 'rdm'
 
 # Python
 brew 'python'
